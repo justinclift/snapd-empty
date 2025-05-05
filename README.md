@@ -33,5 +33,6 @@ $ sudo apt install ./snapd-empty.deb
 ```
 
 This will automatically remove snapd as it does so, and it *won't* break
-your system dependency chains in doing so.  apt should continue functioning
-as per normal afterwards.
+your system dependency chains.
+
+`apt` should continue functioning as per normal afterwards.
