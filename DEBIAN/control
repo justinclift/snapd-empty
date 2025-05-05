@@ -1,0 +1,12 @@
+Package: snapd-empty
+Version: 0.1
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Justin Clift <justin@postgresql.org>
+Description: Empty snapd package, as snap has no place in IT infrastructure
+ This is an empty package that provides snapd without the actual functionality.
+ It's intended to satisfy dependencies without installing the real snapd.
+Provides: snapd
+Conflicts: snapd
+Replaces: snapd
